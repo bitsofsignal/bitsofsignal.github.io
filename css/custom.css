@@ -1,0 +1,143 @@
+.blog-post {
+  color: black;
+}
+
+/* undo hipster styles */
+.blog-post a, .blog-post a:visited, .blog-post a:hover {
+  text-decoration: underline;
+}
+
+/* really should have come with the default style */
+.blog-teaser header img {
+  width: 183px;
+}
+
+header .widewrapper.masthead {
+  background-image: url(/img/header-background.jpg);
+}
+
+header .masthead h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  color: white;
+  font-weight: 300;
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header .widewrapper.subheader {
+  background-color: #1b2732;
+  background-image: url(/img/subheader-background.png);
+}
+
+.widewrapper {
+  /*warm up the background a bit*/
+  background-color: #FEFDFA;
+}
+
+/*@media (min-width: 1200px) {*/
+  /*.container{*/
+    /*max-width: 970px;*/
+  /*}*/
+/*}*/
+
+body.index .blog-aside {
+  margin-left: 0;
+}
+
+.blog-main:before {
+  border-left: none;
+}
+
+.blog-main li {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.widewrapper.subheader {
+  min-height: 47px;
+}
+.tales-searchbox {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.tales-breadcrumb {
+  margin-top: 9px;
+}
+
+/* stock, includes max-width 1199px as well. */
+@media (min-width: 980px) {
+  .blog-post header .lead-image .meta .author,
+  .blog-post header .lead-image .meta .date,
+  .blog-post header .lead-image .meta .comments {
+    margin-right: 20px;
+  }
+}
+
+.meta-sidebar {
+  padding-top: 125px;
+}
+
+#comments h3 {
+  border-top: 1px solid #ced5db;
+  margin-bottom: 20px;
+}
+
+.enable-zoom {
+  transition: -webkit-transform 0.25s ease;
+  z-index: 100;
+  cursor: zoom-in;
+}
+
+.enable-zoom.zoomed {
+  -webkit-transform: scale(2);
+  position: relative;
+  cursor: zoom-out;
+}
+
+.enable-zoom.zoomed.pull-right {
+  -webkit-transform: scale(2) translate(-25%, 0);
+}
+
+.enable-zoom.zoomed.pull-left {
+  -webkit-transform: scale(2) translate(25%, 0);
+}
+
+.enable-zoom.zoomed.x3 {
+  -webkit-transform: scale(3);
+}
+
+.enable-zoom.zoomed.pull-right.x3 {
+  -webkit-transform: scale(3) translate(-25%, 0);
+}
+
+.enable-zoom.zoomed.pull-left.x3 {
+  -webkit-transform: scale(3) translate(25%, 0);
+}
+
+.enable-zoom.zoomed.x4 {
+  -webkit-transform: scale(4);
+}
+
+.enable-zoom.zoomed.pull-right.x4 {
+  -webkit-transform: scale(4) translate(-25%, 0);
+}
+
+.enable-zoom.zoomed.pull-left.x4 {
+  -webkit-transform: scale(4) translate(25%, 0);
+}
+
+
+.widewrapper, .panel {
+  /* for image zoom, we dim the widewrapper */
+  -webkit-transition: background-color 250ms linear;
+  -moz-transition:    background-color 250ms linear;
+  -o-transition:      background-color 250ms linear;
+  transition:         background-color 250ms linear;
+}
+
+.zoom-backdrop {
+  background-color: rgba(215, 215, 215, 0.7);
+}
+
+
