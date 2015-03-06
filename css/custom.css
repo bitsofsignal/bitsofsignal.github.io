@@ -54,6 +54,11 @@ body.index .blog-aside {
   margin-top: 10px;
 }
 
+.compact-list li {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
 .widewrapper.subheader {
   min-height: 47px;
 }
@@ -140,4 +145,6 @@ body.index .blog-aside {
   background-color: rgba(215, 215, 215, 0.7);
 }
 
-
+.panel .row {
+  margin-top: 25px;
+}
