@@ -9,7 +9,7 @@
 body {
   font-size: 16px;
   line-height: 27px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #404b55;
   background-color: #feffff;
 }
@@ -25,18 +25,18 @@ h1 {
   font-size: 45px;
   line-height: 60px;
   font-weight: normal;
-  font-family: 'PT Serif', serif;
+  font-family: 'Arvo', serif;
 }
 h2 {
   font-size: 30px;
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', sans-serif;
 }
 h3 {
   font-size: 21px;
   line-height: 30px;
   font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arvo', sans-serif;
 }
 hr {
   border-top-color: #ced5db;
@@ -646,7 +646,7 @@ hr {
   margin-bottom: 90px;
 }
 .blog-post header h1 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Arvo', serif;
   margin-bottom: 22px;
 }
 .blog-post header .lead-image {
@@ -954,7 +954,7 @@ aside.comments .comment .body {
 .about-large,
 .about-medium,
 .about-small {
-  font-family: 'PT Serif', serif;
+  font-family: 'Arvo', serif;
   line-height: 60px;
 }
 @media (max-width: 767px) {

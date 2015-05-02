@@ -1,5 +1,6 @@
 .blog-post {
   color: black;
+  font-size: 18px;
 }
 
 /* undo hipster styles */
@@ -28,11 +29,6 @@ header .masthead h1 {
 header .widewrapper.subheader {
   background-color: #1b2732;
   background-image: url(/img/subheader-background.png);
-}
-
-.widewrapper {
-  /*warm up the background a bit*/
-  background-color: #FEFDFA;
 }
 
 /*@media (min-width: 1200px) {*/
