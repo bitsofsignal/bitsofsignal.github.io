@@ -1,3 +1,8 @@
+#logo p.lead {
+  margin-bottom: 0;
+  color: white;
+}
+
 .blog-post {
   color: black;
   font-size: 18px;
@@ -27,7 +32,12 @@ header .masthead h1 {
 }
 
 header .widewrapper.subheader {
-  background-color: #1b2732;
+  background-color: #728494;
+  background-image: url(/img/subheader-background.png);
+}
+
+.widewrapper.copyright {
+  background-color: #728494;
   background-image: url(/img/subheader-background.png);
 }
 
@@ -63,7 +73,11 @@ body.index .blog-aside {
   margin-bottom: 8px;
 }
 .tales-breadcrumb {
+  color: #434344;
   margin-top: 9px;
+}
+.tales-breadcrumb a {
+  color: #434344;
 }
 
 /* stock, includes max-width 1199px as well. */
