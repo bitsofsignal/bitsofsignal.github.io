@@ -18,6 +18,11 @@
   width: 183px;
 }
 
+.blog-post header h2 {
+  font-family: 'Lato', sans-serif;
+  color: #989595;
+}
+
 .meta-sidebar img.main-thumb {
   margin-bottom: 20px;
   margin-left: -20px;
