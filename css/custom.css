@@ -18,6 +18,24 @@
   width: 183px;
 }
 
+.meta-sidebar img.main-thumb {
+  margin-bottom: 20px;
+  margin-left: -20px;
+  width: 163px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+}
+
+.tag-list img.main-thumb {
+  width: 140px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
 header .widewrapper.masthead {
   background-image: url(/img/header-background.jpg);
 }
@@ -90,12 +108,16 @@ body.index .blog-aside {
 }
 
 .meta-sidebar {
-  padding-top: 125px;
+  padding-top: 110px;
 }
 
 #comments h3 {
   border-top: 1px solid #ced5db;
   margin-bottom: 20px;
+}
+
+.linkish-glow:hover {
+  box-shadow: 0 0 10px lightblue;
 }
 
 .enable-zoom {
@@ -142,6 +164,12 @@ body.index .blog-aside {
   -webkit-transform: scale(4) translate(25%, 0);
 }
 
+.enable-zoom.zoomed.main-thumb {
+  -webkit-transform: scale(4) translate(75%, 30%);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
 
 .widewrapper, .panel {
   /* for image zoom, we dim the widewrapper */
@@ -153,8 +181,4 @@ body.index .blog-aside {
 
 .zoom-backdrop {
   background-color: rgba(215, 215, 215, 0.7);
-}
-
-.panel .row {
-  margin-top: 25px;
 }
